@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		311C9DB9266D5F71006C5871 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85D6319266C78D2002BAE17 /* AppDelegate.swift */; };
+		311C9DBA266D5F77006C5871 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85D631B266C78D2002BAE17 /* ViewController.swift */; };
+		311C9DBB266D5F7C006C5871 /* RodrigoHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85D632D266C879F002BAE17 /* RodrigoHomeViewController.swift */; };
+		311C9DBC266D5F82006C5871 /* RegistrateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85D6331266C9301002BAE17 /* RegistrateViewController.swift */; };
+		311C9DBD266D5FCE006C5871 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E85D6320266C78D6002BAE17 /* Assets.xcassets */; };
+		311C9DBE266D5FD6006C5871 /* RegistrateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E85D6332266C9301002BAE17 /* RegistrateViewController.xib */; };
+		311C9DBF266D5FE4006C5871 /* RodrigoHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E85D632E266C879F002BAE17 /* RodrigoHomeViewController.xib */; };
+		311C9DC0266D5FF5006C5871 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E85D6322266C78D6002BAE17 /* LaunchScreen.storyboard */; };
+		311C9DC1266D6001006C5871 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E85D631D266C78D2002BAE17 /* Main.storyboard */; };
+		311C9DC3266D6254006C5871 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 311C9DC2266D6253006C5871 /* GoogleService-Info.plist */; };
+		C80CB97E2FA2F15488BFE160 /* Pods_RodrigoHerrada.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A152E2823B65B5B14E53D78 /* Pods_RodrigoHerrada.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		311C9DB6266D55B8006C5871 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		311C9DC2266D6253006C5871 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3A152E2823B65B5B14E53D78 /* Pods_RodrigoHerrada.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RodrigoHerrada.framework; path = "../../../../../../../../../Library/Developer/Xcode/DerivedData/RodrigoHerrada-efdpegltsbzsrhauidrlkzonjyzt/Build/Products/Debug-iphoneos/Pods_RodrigoHerrada.framework"; sourceTree = SDKROOT; };
+		7D228A7FC3E58B0A2204200A /* Pods-RodrigoHerrada.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RodrigoHerrada.release.xcconfig"; path = "Target Support Files/Pods-RodrigoHerrada/Pods-RodrigoHerrada.release.xcconfig"; sourceTree = "<group>"; };
+		8F8C9269293C564010A2A141 /* Pods-RodrigoHerrada.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RodrigoHerrada.debug.xcconfig"; path = "Target Support Files/Pods-RodrigoHerrada/Pods-RodrigoHerrada.debug.xcconfig"; sourceTree = "<group>"; };
+		E85D6316266C78D2002BAE17 /* RodrigoHerrada.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RodrigoHerrada.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E85D6319266C78D2002BAE17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E85D631B266C78D2002BAE17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E85D631E266C78D2002BAE17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E85D6320266C78D6002BAE17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E85D6323266C78D6002BAE17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E85D6325266C78D6002BAE17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E85D632D266C879F002BAE17 /* RodrigoHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RodrigoHomeViewController.swift; sourceTree = "<group>"; };
+		E85D632E266C879F002BAE17 /* RodrigoHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RodrigoHomeViewController.xib; sourceTree = "<group>"; };
+		E85D6331266C9301002BAE17 /* RegistrateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrateViewController.swift; sourceTree = "<group>"; };
+		E85D6332266C9301002BAE17 /* RegistrateViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegistrateViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E85D6313266C78D2002BAE17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C80CB97E2FA2F15488BFE160 /* Pods_RodrigoHerrada.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B3C5F0B8FFCDB2BB50573C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F8C9269293C564010A2A141 /* Pods-RodrigoHerrada.debug.xcconfig */,
+				7D228A7FC3E58B0A2204200A /* Pods-RodrigoHerrada.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E63340DE0695902DFFB99E2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A152E2823B65B5B14E53D78 /* Pods_RodrigoHerrada.framework */,
+			);
+			name = Frameworks;
+			path = ../../../../../../../../../Documents/RodrigoHerrada;
+			sourceTree = SDKROOT;
+		};
+		E85D630D266C78D2002BAE17 = {
+			isa = PBXGroup;
+			children = (
+				311C9DB6266D55B8006C5871 /* Default-568h@2x.png */,
+				E85D6318266C78D2002BAE17 /* RodrigoHerrada */,
+				E85D6317266C78D2002BAE17 /* Products */,
+				0B3C5F0B8FFCDB2BB50573C1 /* Pods */,
+				E63340DE0695902DFFB99E2C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E85D6317266C78D2002BAE17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E85D6316266C78D2002BAE17 /* RodrigoHerrada.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E85D6318266C78D2002BAE17 /* RodrigoHerrada */ = {
+			isa = PBXGroup;
+			children = (
+				311C9DC2266D6253006C5871 /* GoogleService-Info.plist */,
+				E85D6319266C78D2002BAE17 /* AppDelegate.swift */,
+				E85D631B266C78D2002BAE17 /* ViewController.swift */,
+				E85D631D266C78D2002BAE17 /* Main.storyboard */,
+				E85D6320266C78D6002BAE17 /* Assets.xcassets */,
+				E85D6322266C78D6002BAE17 /* LaunchScreen.storyboard */,
+				E85D6325266C78D6002BAE17 /* Info.plist */,
+				E85D632D266C879F002BAE17 /* RodrigoHomeViewController.swift */,
+				E85D632E266C879F002BAE17 /* RodrigoHomeViewController.xib */,
+				E85D6331266C9301002BAE17 /* RegistrateViewController.swift */,
+				E85D6332266C9301002BAE17 /* RegistrateViewController.xib */,
+			);
+			path = RodrigoHerrada;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E85D6315266C78D2002BAE17 /* RodrigoHerrada */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E85D6328266C78D6002BAE17 /* Build configuration list for PBXNativeTarget "RodrigoHerrada" */;
+			buildPhases = (
+				D78B80D19C18C02DC9171892 /* [CP] Check Pods Manifest.lock */,
+				E85D6312266C78D2002BAE17 /* Sources */,
+				E85D6313266C78D2002BAE17 /* Frameworks */,
+				E85D6314266C78D2002BAE17 /* Resources */,
+				4679BE6C2C81DD96D5416CE0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RodrigoHerrada;
+			productName = JulianExamenDos;
+			productReference = E85D6316266C78D2002BAE17 /* RodrigoHerrada.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E85D630E266C78D2002BAE17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Jaer;
+				TargetAttributes = {
+					E85D6315266C78D2002BAE17 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = E85D6311266C78D2002BAE17 /* Build configuration list for PBXProject "RodrigoHerrada" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E85D630D266C78D2002BAE17;
+			productRefGroup = E85D6317266C78D2002BAE17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E85D6315266C78D2002BAE17 /* RodrigoHerrada */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E85D6314266C78D2002BAE17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				311C9DC1266D6001006C5871 /* Main.storyboard in Resources */,
+				311C9DC0266D5FF5006C5871 /* LaunchScreen.storyboard in Resources */,
+				311C9DBF266D5FE4006C5871 /* RodrigoHomeViewController.xib in Resources */,
+				311C9DBE266D5FD6006C5871 /* RegistrateViewController.xib in Resources */,
+				311C9DBD266D5FCE006C5871 /* Assets.xcassets in Resources */,
+				311C9DC3266D6254006C5871 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4679BE6C2C81DD96D5416CE0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RodrigoHerrada/Pods-RodrigoHerrada-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RodrigoHerrada/Pods-RodrigoHerrada-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RodrigoHerrada/Pods-RodrigoHerrada-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D78B80D19C18C02DC9171892 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RodrigoHerrada-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E85D6312266C78D2002BAE17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				311C9DBC266D5F82006C5871 /* RegistrateViewController.swift in Sources */,
+				311C9DBB266D5F7C006C5871 /* RodrigoHomeViewController.swift in Sources */,
+				311C9DBA266D5F77006C5871 /* ViewController.swift in Sources */,
+				311C9DB9266D5F71006C5871 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E85D631D266C78D2002BAE17 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E85D631E266C78D2002BAE17 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E85D6322266C78D6002BAE17 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E85D6323266C78D6002BAE17 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E85D6326266C78D6002BAE17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E85D6327266C78D6002BAE17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E85D6329266C78D6002BAE17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F8C9269293C564010A2A141 /* Pods-RodrigoHerrada.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/RodrigoHerrada/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cibertec.RodrigoHerrada;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E85D632A266C78D6002BAE17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D228A7FC3E58B0A2204200A /* Pods-RodrigoHerrada.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/RodrigoHerrada/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cibertec.RodrigoHerrada;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E85D6311266C78D2002BAE17 /* Build configuration list for PBXProject "RodrigoHerrada" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E85D6326266C78D6002BAE17 /* Debug */,
+				E85D6327266C78D6002BAE17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E85D6328266C78D6002BAE17 /* Build configuration list for PBXNativeTarget "RodrigoHerrada" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E85D6329266C78D6002BAE17 /* Debug */,
+				E85D632A266C78D6002BAE17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E85D630E266C78D2002BAE17 /* Project object */;
+}
